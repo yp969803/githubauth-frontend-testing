@@ -3,10 +3,10 @@
  Front ent for testing github Oauth
 
  ## Prerequisite
-  - Node
+  - Node  https://nodejs.org/en/download
   - NPM
-  - VS code
-  - GIT
+  - VS code  https://code.visualstudio.com/download
+  - GIT       https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
   ## Local setup
 
