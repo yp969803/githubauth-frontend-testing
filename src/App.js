@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import {useEffect,useState} from 'react';
 // http://localhost:3000/login?code=e3e99c2f8d2680d1c19a
 function App() {
-  const CLIENT_ID="149d2857118e05e729a8"
+  const CLIENT_ID=process.env.CLIENT_ID
   
   const [rerender,setRerender]=useState(false);
 
@@ -42,7 +42,7 @@ function App() {
     <div className="App">
       <header >
         <button onClick={loginWithGithub}>
-          LLogin Witth Github
+          Login Witth Github
         </button>
       </header>
     </div>
